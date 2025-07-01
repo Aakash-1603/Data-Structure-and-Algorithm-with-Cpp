@@ -1,20 +1,22 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-int main() {
+int main()
+{
 
     // Problem Statement:
     // Given an array of integers, find the number that appears only once,
-    // while all other numbers appear exactly twice. 
-    
-    
+    // while all other numbers appear exactly twice.
+
     int n;
     cin >> n;
     vector<int> arr(n);
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++)
+    {
         cin >> arr[i];
     }
     int result = 0;
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++)
+    {
         result ^= arr[i]; // XOR operation to find the unique number
     }
     cout << "The number that appears only once is: " << result << endl;

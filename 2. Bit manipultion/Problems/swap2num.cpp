@@ -1,7 +1,8 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-int main() {
-    
+int main()
+{
+
     // Swap two numbers with help of XOR operator.
 
     int a, b;
@@ -16,7 +17,6 @@ int main() {
     // Its Complexity Analysis:
     // The time complexity of this code is O(1) since it performs a fixed number
     // The space complexity is also O(1) as it uses a constant amount of space for the variables.
-
 
     // Note: The XOR of same number is 0, and the XOR of a number with 0 is the number itself.
 }

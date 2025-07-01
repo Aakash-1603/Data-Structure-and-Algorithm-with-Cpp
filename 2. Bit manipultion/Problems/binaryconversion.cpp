@@ -6,7 +6,6 @@ int main()
     // Problem Statement:
     // Given a decimal number, convert it to its binary representation.
 
-
     int n;
     cin >> n;
     string ans = "";
@@ -34,18 +33,21 @@ int main()
     // The space complexity is O(log n) as well, due to the storage of the binary representation in a string.
 }
 
-int main(){
-    
+int main()
+{
+
     // Problem Statement:
     // Given a binary number as a string, convert it to its decimal representation.
 
     string binary;
-    cin >> binary; 
+    cin >> binary;
     int decimal = 0;
     int base = 1; // Initialize base value to 1 (2^0)
     int len = binary.length();
-    for (int i = len - 1; i >= 0; i--) {
-        if (binary[i] == '1') {
+    for (int i = len - 1; i >= 0; i--)
+    {
+        if (binary[i] == '1')
+        {
             decimal += base; // Add the value of the current bit
         }
         base *= 2; // Update base to the next power of 2
