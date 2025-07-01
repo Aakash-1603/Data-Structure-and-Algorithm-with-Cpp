@@ -92,6 +92,7 @@ void generateSubsets(vector<int>& nums) {
         cout << endl;
     }
 }
-```
+
 
 ---
+```
