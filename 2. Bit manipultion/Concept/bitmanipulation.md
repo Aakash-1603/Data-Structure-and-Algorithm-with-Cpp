@@ -95,5 +95,3 @@ void generateSubsets(vector<int>& nums) {
 ```
 
 ---
-
-Let me know if you want this exported as PDF or want 10+ more problems on bit manipulation.

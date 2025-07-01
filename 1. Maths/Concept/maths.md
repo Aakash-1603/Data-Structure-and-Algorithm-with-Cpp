@@ -4,9 +4,9 @@
 
 **a. Prime Numbers**
 
-* A number greater than 1 that has no divisors other than 1 and itself.
-* **Example:** 2, 3, 5, 7 are prime numbers.
-* **Code (Check Prime):**
+- A number greater than 1 that has no divisors other than 1 and itself.
+- **Example:** 2, 3, 5, 7 are prime numbers.
+- **Code (Check Prime):**
 
 ```cpp
 bool isPrime(int n) {
@@ -19,14 +19,14 @@ bool isPrime(int n) {
 
 **b. Sieve of Eratosthenes**
 
-* Efficient way to generate primes up to `n`.
-* **Example:** Primes till 10: 2, 3, 5, 7.
+- Efficient way to generate primes up to `n`.
+- **Example:** Primes till 10: 2, 3, 5, 7.
 
 **c. GCD and LCM**
 
-* GCD: Greatest common divisor
-* LCM: Least common multiple
-* **Code (GCD):**
+- GCD: Greatest common divisor
+- LCM: Least common multiple
+- **Code (GCD):**
 
 ```cpp
 int gcd(int a, int b) {
@@ -34,13 +34,13 @@ int gcd(int a, int b) {
 }
 ```
 
-* **LCM Formula:** `lcm(a, b) = (a * b) / gcd(a, b)`
+- **LCM Formula:** `lcm(a, b) = (a * b) / gcd(a, b)`
 
 **d. Modular Arithmetic**
 
-* **Modular Addition:** `(a + b) % m`
-* **Modular Inverse:** `a^-1 mod m`, only if `gcd(a, m) == 1`
-* **Code (Binary Exponentiation):**
+- **Modular Addition:** `(a + b) % m`
+- **Modular Inverse:** `a^-1 mod m`, only if `gcd(a, m) == 1`
+- **Code (Binary Exponentiation):**
 
 ```cpp
 long long power(long long a, long long b, long long m) {
@@ -58,39 +58,39 @@ long long power(long long a, long long b, long long m) {
 
 **a. Factorials**
 
-* `n! = n * (n-1) * ... * 1`
-* Used in permutations and combinations.
+- `n! = n * (n-1) * ... * 1`
+- Used in permutations and combinations.
 
 **b. nCr Formula:**
 
-* `nCr = n! / (r! * (n-r)!)`
-* Use precomputed factorial and modular inverse for efficiency.
+- `nCr = n! / (r! * (n-r)!)`
+- Use precomputed factorial and modular inverse for efficiency.
 
 **c. Pascal’s Triangle**
 
-* Each entry is the sum of the two above it.
+- Each entry is the sum of the two above it.
 
 ### 3. Probability
 
 **a. Probability = Favorable Outcomes / Total Outcomes**
 **b. Conditional Probability:**
 
-* P(A|B) = P(A and B) / P(B)
+- P(A|B) = P(A and B) / P(B)
   **c. Expected Value:**
-* Sum of all outcomes weighted by probability
+- Sum of all outcomes weighted by probability
 
 ### 4. Algebra
 
 **a. Algebraic Identities**
 
-* (a + b)^2 = a^2 + 2ab + b^2
-* (a - b)^2 = a^2 - 2ab + b^2
-* (a + b)(a - b) = a^2 - b^2
+- (a + b)^2 = a^2 + 2ab + b^2
+- (a - b)^2 = a^2 - 2ab + b^2
+- (a + b)(a - b) = a^2 - b^2
 
 **b. Quadratic Equation**
 
-* ax^2 + bx + c = 0
-* Roots: `(-b ± sqrt(b^2 - 4ac)) / (2a)`
+- ax^2 + bx + c = 0
+- Roots: `(-b ± sqrt(b^2 - 4ac)) / (2a)`
 
 ### 5. Bit Manipulation
 
@@ -103,25 +103,25 @@ long long power(long long a, long long b, long long m) {
 
 **a. Distance Formula:**
 
-* `sqrt((x2 - x1)^2 + (y2 - y1)^2)`
+- `sqrt((x2 - x1)^2 + (y2 - y1)^2)`
   **b. Area of Triangle:**
-* `0.5 * base * height`
+- `0.5 * base * height`
   **c. Convex Hull:**
-* Smallest convex polygon that encloses all points
+- Smallest convex polygon that encloses all points
 
 ### 7. Matrix & Linear Algebra
 
 **a. Matrix Multiplication**
 **b. Matrix Exponentiation**
 
-* Used in fast Fibonacci calculation
+- Used in fast Fibonacci calculation
 
 ### 8. Logarithms & Exponentials
 
 **a. log(ab) = log a + log b**
 **b. log(a^b) = b log a**
 
-* Useful in complexity analysis
+- Useful in complexity analysis
 
 ### 9. Sequences & Series
 
@@ -153,5 +153,3 @@ int fib(int n) {
 **b. Master Theorem** for solving recurrence relations in complexity
 
 ---
-
-Would you like to get this in PDF form, or with problem sets for each topic?
